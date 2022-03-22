@@ -1,2 +1,2 @@
 # My-Portfolio  
-[Click Here to Open]()
+[Click Here to know about me]()
