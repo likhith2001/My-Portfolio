@@ -360,7 +360,7 @@
   </div>
 
   <!-- Contact -->
-<!--   <div class="vg-page page-contact">
+  <!--   <div class="vg-page page-contact">
     <div class="container-fluid">
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Let's Chat</div>
@@ -427,7 +427,8 @@
       </div>
       <div class="row justify-content-center mt-3">
         <div class="col-12">
-          <p class="text-center mb-0 mt-4">Copyright &copy;2021. All rights reserved by Likhith.</p>
+          <p class="text-center mb-0 mt-4">Copyright &copy;2021. All rights reserved by Likhith.</p> <br>
+          <p id="demo" style="padding-left: 38%;">Last modified:</p>
         </div>
       </div>
     </div>
@@ -447,6 +448,11 @@
   <script src="./js/wow.min.js"></script>
 
   <script src="./js/topbar-virtual.js"></script>
+
+  <script>
+    let text = document.lastModified;
+    document.getElementById("demo").textContent += " "+text;
+  </script>
 
 </body>
 
